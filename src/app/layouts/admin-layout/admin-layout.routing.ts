@@ -10,7 +10,7 @@ import { NotificationsComponent } from '../../notifications/notifications.compon
 import { UpgradeComponent } from '../../upgrade/upgrade.component';
 
 export const AdminLayoutRoutes: Routes = [
-    { path: 'dashboard',      component: HomeComponent },
+    { path: 'post',      component: HomeComponent },
     { path: 'user',           component: UserComponent },
     { path: 'user/:id',           component: UserComponent },
     { path: 'table',          component: TablesComponent },

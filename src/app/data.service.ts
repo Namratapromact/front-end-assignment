@@ -18,6 +18,12 @@ export class DataService {
 
   }
 
+  /*Getting all posts from the server*/
+  getPosts(): Observable<User[]> {
+    return this.http.get<User[]>(`https://strapi-test.promactinfo.com/posts`)
+
+  }
+
   /*Getting users by its id from the server*/
   getUsersbyId(id: number): Observable<User> {
       if (id == 0) {

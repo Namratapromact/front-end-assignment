@@ -14,7 +14,6 @@ declare interface TableData {
   styleUrls: ['./tables.component.css']
 })
 export class TablesComponent implements OnInit {
-    public tableData1: TableData;
     user: User[];
 
   constructor(private userService: DataService,
